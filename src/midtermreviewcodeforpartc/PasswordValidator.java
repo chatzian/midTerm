@@ -11,6 +11,9 @@ import java.util.Scanner;
  *
  * @author Nicolas
  */
+
+//all function moved into this class so that when changes to the validation rules arise, only this class 
+//needs to be modified. 
 public class PasswordValidator {
     
          boolean validPassword=false;
